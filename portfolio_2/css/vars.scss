@@ -1,0 +1,13 @@
+$base: #726e6e;
+$d_base: #33587c;
+$black: #41474c;
+$btn: #06d4e2;
+$accent: #ecb124;
+
+@mixin mt($time) {
+ transition: all $time ease;
+}
+
+@function em($px) {
+	@return $px / 16px * 1em;
+}

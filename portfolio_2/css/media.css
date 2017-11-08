@@ -1,0 +1,91 @@
+@media only screen and (min-height: 899px) {
+  .header-content {
+    padding: 18% 0; } }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header-content .responsive-img {
+    width: auto;
+    max-width: 100%; }
+
+  .phone {
+    padding-right: 50px; } }
+@media only screen and (min-width: 770px) and (max-width: 1200px) {
+  .phone {
+    margin-right: 25px; }
+
+  .header_content .responsive_img {
+    width: 380px; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .ishome h1 {
+    font-size: em(34px); }
+
+  .col-md-6:last-child .button {
+    margin-top: 5%; }
+
+  .testimonials_item .testimonials_desc_wrap .testimonials_desc {
+    padding: 15px; }
+
+  .testimonials_item .testimonials_desc_wrap .tizer_triangle_2 {
+    left: 44%;
+    transform: transitionX(-44%); }
+
+  .s_contacts .s_contacts_wrapper .map #google iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: 325px; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header_content .responsive_img {
+    width: 365px; }
+
+  .menu_line {
+    text-align: center; }
+    .menu_line .logo {
+      display: inline-block; }
+    .menu_line .phone {
+      text-align: center; }
+
+  .hidden_menu {
+    font-size: em(15px);
+    text-transform: uppercase; }
+
+  .s_profile h2 {
+    margin-top: 30px; }
+
+  .ishome h2 {
+    font-size: em(28px); }
+
+  .portfolio_popup .portfolio_popup_text .td {
+    padding-bottom: 20px; }
+  .portfolio_popup h2 {
+    width: 90%; }
+
+  .testimonials_item {
+    margin-bottom: 60px; }
+
+  .testimonials_item .testimonials_desc_wrap .tizer_triangle_2 {
+    left: 48%;
+    transform: transitionX(-48%); } }
+@media only screen and (max-width: 480px) {
+  .ishome h1 {
+    font-size: em(30px);
+    margin-top: 30px; }
+  .ishome .header_content ul li {
+    font-size: em(16px); }
+  .ishome .header_content {
+    text-align: center; }
+
+  .carousel_brands {
+    padding: 0 40px; }
+    .carousel_brands .owl-controls .owl-nav > div {
+      left: 15px; }
+      .carousel_brands .owl-controls .owl-nav > div.owl-next {
+        right: 15px; }
+
+  .testimonials_item .testimonials_desc_wrap .tizer_triangle_2 {
+    left: 45%;
+    transform: transitionX(-45%); } }
+
+/*# sourceMappingURL=media.css.map */
