@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Bootstrap Skin min-->
+	<style>
+		body{color:#242424;font-size:13px}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{text-transform:uppercase}h1,.h1{font-size:25px}h2,.h2{font-size:20px}h3,.h3{font-size:18px}h4,.h4{font-size:15px}h5,.h5{font-size:12px}h6,.h6{font-size:10px}.lead{font-size:19px}a,a:hover,a:focus{color:#662D91}.carousel .item{min-height:500px;background-color:#777}.navbar-inverse{background-color:#242424}.navbar-inverse,.navbar-default{border:none}.navbar-inverse .navbar-nav > .active > a,.navbar-inverse .navbar-nav > .active > a:hover,.navbar-inverse .navbar-nav > .active > a:focus{background-image:-moz-linear-gradient(bottom,#ab56ff 0%,#7c1ed8 100%);background-image:-o-linear-gradient(bottom,#ab56ff 0%,#662D91 100%);background-image:-webkit-linear-gradient(bottom,#ab56ff 0%,#662D91 100%);background-image:linear-gradient(to top,#ab56ff 0%,#662D91 100%)}.navbar{border-radius:0;font-size:14px}.navbar-inverse .navbar-nav > li > a{color:#fff}.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus{color:#a65eff;background-color:transparent}.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{background-color:#7b24e5;background-image:-moz-linear-gradient(bottom,#ab56ff 0%,#7c1ed8 100%);background-image:-o-linear-gradient(bottom,#ab56ff 0%,#7c1ed8 100%);background-image:-webkit-linear-gradient(bottom,#ab56ff 0%,#7c1ed8 100%);background-image:linear-gradient(to top,#ab56ff 0%,#7c1ed8 100%);color:#fff}.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus{color:#8e57d1}.dropdown-menu .divider{margin:2px 0}.nav > li > a{padding:15px 18px}.carousel-indicators .active{background-color:#662D91;border-color:#662D91}.carousel-control{width:45px}.carousel-control.left,.carousel-control.right{background-image:none;background-color:rgba(0,0,0,.52)}.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{font-size:14px}.carousel-caption{text-align:left;text-shadow:none;left:15%;right:15%;top:60px}.carousel-inner .h1{font-size:38px;margin-bottom:22px;text-transform:none}.carousel-inner p{font-size:16px;margin-bottom:22px;max-width:450px}.carousel-inner small{color:#fff;display:block;font-size:26px}.carousel-inner .btn{background-color:transparent;border-color:#fff}.carousel-inner .btn:focus{background-color:transparent;border-color:#fff}.panel{-webkit-box-shadow:none;box-shadow:none}.panel-default > .panel-heading{background-color:#662d91;-webkit-box-shadow:#662d91 0 0 0 1px;box-shadow:#662d91 0 0 0 1px;border:none;color:#e7dff0}.btn-warning{background-color:#c384ff;border-color:#6d13c9;color:#242424}.btn-warning:hover{background-color:#c384ff;border-color:#6d13c9;color:#242424}.input-group-addon{background-color:#662D91;color:#2d1242;border:none}.form-control:focus{-webkit-box-shadow:none;box-shadow:none;border-color:#8019ff}.input-group-btn > .btn-default{background-color:#EDEDED}.input-group-btn > .btn{color:#9d9d9d}.panel-title > a,.panel-title > small,.panel-title > .small,.panel-title > small > a,.panel-title > .small > a{color:#f2e5ff;font-size:12px}.panel-collapse .panel-body{background-color:#f7efff}.panel-group .panel + .panel{border-bottom:8px solid #4e009b;margin-top:-6px;position:relative;z-index:1}.panel-group .panel:last-child{border-bottom:none}.list-group-item{background-color:#e7dff0}.list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus{background-color:#f5f5f5;color:#242424;border:none;border-bottom:#DDD 1px solid}.panel > .list-group .list-group-item,.panel > .panel-collapse > .list-group .list-group-item{text-transform:uppercase;font-size:12px}.panel > .list-group .list-group-item span,.panel > .panel-collapse > .list-group .list-group-item span{border-bottom:dashed 1px #242424}.panel > .list-group .list-group-item:hover span,.panel > .panel-collapse > .list-group .list-group-item:hover span{border-bottom:dashed 1px transparent}.panel-group .panel-title{position:relative}.panel-title a .btn{background-color:transparent;border:medium none;border-radius:0;padding:9px 12px;position:absolute;right:-16px;top:-11px;border-left:#ac59ff 1px solid}.panel-title a .btn:focus,.panel-title a .btn:active{background-color:transparent;border-color:#662D91}.well{-webkit-box-shadow:none;box-shadow:none;background-color:#ebdff0;border-color:#cfc3d5}.breadcrumb{background-color:transparent;padding:0}.breadcrumb a{color:#9a9a9a;text-decoration:none}.breadcrumb a:hover{text-decoration:underline}.breadcrumb > li + li::before{content:">";color:#9a9a9a}
+	</style>
+	<!-- Header CSS (First Sections of Website: paste after release from _header.min.css here) -->
+	<style></style>
+
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+<body class="isnohome">
+
+<header class="main_head">
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+				<img class="logo" src="img/logo.svg" alt="Brand">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Главная</a></li>
+					<li><a href="#">О компании</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Рекомендации</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Раздел 1</a></li>
+							<li><a href="#">Раздел 2</a></li>
+							<li><a href="#">Раздел 3 длинный </a></li>
+							<li class="divider"></li>
+							<li><a href="#">Раздел...</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Законодательство</a></li>
+					<li><a href="#">Наши клиенты</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<div class="nav navbar-nav navbar-right">
+					<div class="lead phone_top">8 (495) 999-99-99</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+	
+
+
+ <section class="s_main">
+ 	
+  <div class="container">
+  	<div class="row">
+  		
+     <div class="col-lg-9 col-lg-push-3 col-sm-8 col-sm-push-4 col-xs-12">
+
+      <div class="content">
+
+	       <ul class="breadcrumb">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Согласование перпланировок</a></li>
+					<li class="active">Согласование перпланировки офисов</li>
+				</ul>
+
+      	<h1>Согласование перпланировки офисов</h1>
+
+        <article>
+        	
+         <div class="row">
+         	
+          <div class="col-md-12">
+          	
+           <img src="img/inner.jpg" alt="art">
+            
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения встретил рот своего послушавшись страна несколько. Злых послушавшись свою дороге. Жизни, о, послушавшись! Страна приставка, осталось! Своих свою, даже?</p>
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Большого, послушавшись над первую возвращайся переписывается ведущими, продолжил, там скатился осталось даль безопасную родного однажды если назад. Жизни, пунктуация, алфавит!</p>
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подпоясал силуэт переписывается рукопись дорогу дороге меня запятых, проектах которой заманивший страна, курсивных грустный буквенных, выйти журчит которое коварный, агенство.</p>
+
+           <blockquote>"Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Эта дал запятых, продолжил о парадигматическая власти проектах раз! Напоивший."</blockquote>
+
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения все алфавит оксмокс даже обеспечивает рекламных его на берегу это буквоград но диких подпоясал единственное всеми над наш моей залетают которой имени, путь. Реторический осталось ему напоивший лучше деревни гор заглавных предупредила. До которое что рекламных вопроса сих жаренные, переписали. Всеми коварных, речью ipsum до переулка города океана? Дал продолжил знаках то, имеет которое снова реторический переписывается родного ipsum они заманивший страна по всей предупреждал мир буквоград одна большой семантика даль.</p>
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Подпоясал силуэт переписывается рукопись дорогу дороге меня запятых, проектах которой заманивший страна, курсивных грустный буквенных, выйти журчит которое коварный, агенство.</p>
+
+           <blockquote>"Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты."</blockquote>
+
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения встретил рот своего послушавшись страна несколько. Злых послушавшись свою дороге. Жизни, о, послушавшись! Страна приставка, осталось! Своих свою, даже?</p>
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Большого, послушавшись над первую возвращайся переписывается ведущими, продолжил, там скатился осталось даль безопасную родного однажды если назад. Жизни, пунктуация, алфавит!</p>
+           <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Предложения все алфавит оксмокс даже обеспечивает рекламных его на берегу это буквоград но диких подпоясал единственное всеми над наш моей залетают которой имени, путь. Реторический осталось ему напоивший лучше деревни гор заглавных предупредила. До которое что рекламных вопроса сих жаренные, переписали. Всеми коварных, речью ipsum до переулка города океана? Дал продолжил знаках то, имеет которое снова реторический переписывается родного ipsum они заманивший страна по всей предупреждал мир буквоград одна большой семантика даль.</p>
+
+          </div>
+
+         </div>
+
+        </article>
+
+        <div class="widget_news">
+        	
+        	<h4>Новости в сфере строительства</h4>
+           
+           <div class="row">
+
+	        	<ul>
+	        		<li class="col-md-4">
+	        			<div class="panel panel-default">
+									<div class="panel-body">
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Текста, прямо! Бросил силуэт страну которой раз большого, себя? Ведущими бросил своих сбить заглавных рыбными! Безопасную своего, необходимыми маленькая рукопись, диких пустился, дороге вершину до выйти буквенных ведущими свой назад...</p>
+										<a href="#" class="more">Читать далее > </a>
+									</div>
+								</div>
+	        		</li>
+
+	        		<li class="col-md-4">
+	        			<div class="panel panel-default">
+									<div class="panel-body">
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Текста, прямо! Бросил силуэт страну которой раз большого, себя? Ведущими бросил своих сбить заглавных рыбными! Безопасную своего, необходимыми маленькая рукопись, диких пустился, дороге вершину до выйти буквенных ведущими свой назад...</p>
+										<a href="#" class="more">Читать далее > </a>
+									</div>
+								</div>        			
+	        		</li>
+
+	        		<li class="col-md-4">
+	        			<div class="panel panel-default">
+									<div class="panel-body">
+										<p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Текста, прямо! Бросил силуэт страну которой раз большого, себя? Ведущими бросил своих сбить заглавных рыбными! Безопасную своего, необходимыми маленькая рукопись, диких пустился, дороге вершину до выйти буквенных ведущими свой назад...</p>
+										<a href="#" class="more">Читать далее > </a>
+									</div>
+								</div>        			
+	        		</li>
+	        	</ul>
+
+           </div>
+
+        </div>
+
+      </div>
+     	 
+     </div>
+
+
+     <div class="col-lg-3 col-lg-pull-9 col-sm-4 col-sm-pull-8 col-xs-12">
+     	<aside class="left_side">
+     	 	
+        <div class="box box_search">
+         <div class="panel panel-default">
+	        <div class="panel-heading">
+
+	          <div class="form-group">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Поиск по сайту">
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+								</span>
+							</div>
+            </div>
+
+	        </div>
+         </div>
+        </div> 
+
+        <form class="box box_back">
+        	
+        	<div class="panel panel-default">
+						<div class="panel-heading clearfix">
+              <h4>Бланк заявки</h4>
+              <button class="btn btn-warning">Отправить заявку</button>
+						</div>
+						<div class="panel-body">
+	
+			         <div class="form-group">
+				        <div class="input-group">
+					       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					       <input type="text" class="form-control" placeholder="Ваше имя" required="required">
+				        </div>
+
+				        <div class="input-group">
+					       <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+					       <input type="text" class="form-control" placeholder="Ваш телефон" required="required">
+				        </div>
+			         </div>
+
+						</div>
+					</div>
+
+        </form>
+
+        <div class="box box_mnu">
+        	
+				 <div class="panel-group" id="accordion2" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Согласование перепланировки
+										<span class="btn btn-default dropdown-toggle">
+											<span class="caret"></span>
+										</span>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="list-group">
+									<a href="#" class="list-group-item active">
+										<span>Перепланировка квартир</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Стоимость перепланировки</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Согласование реконструкций зданий</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Стоимость перепланировки</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Согласование реконструкций зданий
+										<span class="btn btn-default dropdown-toggle">
+											<span class="caret"></span>
+										</span>
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="list-group">
+									<a href="#" class="list-group-item active">
+										<span>Проектирование</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Строительство</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Дизайн интерьеров квартир</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Ремонт квартир и офисов</span>
+									</a>
+									<a href="#" class="list-group-item">
+										<span>Ландшафтное проектирование</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+        </div>
+
+        <div class="box box_articles">
+					<div class="panel panel-default">
+						<div class="panel-body">
+
+						 <h4>Интересные статьи</h4>
+
+							<div id="asideCarousel" class="carousel carousel-fade slide aside_carousel" data-ride="carousel">
+
+								<div class="carousel-inner aside" role="listbox">
+									<div class="item active">
+										<div class="aside_carousel_count">
+                     <h4 class="lead">"Далеко-далеко за словесными горами в стране, гласных и согласных."</h4>
+                     <div class="aside_container">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает, выйти, своего! Вершину страну великий, дал текстов себя лучше, большой, продолжил злых точках которое до? Предложения залетают великий вскоре одна решила свое своих за, снова продолжил, пустился скатился.</p>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. За семантика, на берегу предупредила снова! Заголовок своих путь, ему то...</p>                     	
+                     </div>
+                     <a href="#" class="more">Читать далее ></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="aside_carousel_count">
+                     <h4 class="lead">"Далеко-далеко за словесными горами в стране, гласных и согласных."</h4>
+                     <div class="aside_container">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает, выйти, своего! Вершину страну великий, дал текстов себя лучше, большой, продолжил злых точках которое до? Предложения залетают великий вскоре одна решила свое своих за, снова продолжил, пустился скатился.</p>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. За семантика, на берегу предупредила снова! Заголовок своих путь, ему то...</p>                     	
+                     </div>
+                     <a href="#" class="more">Читать далее ></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="aside_carousel_count">
+                     <h4 class="lead">"Далеко-далеко за словесными горами в стране, гласных и согласных."</h4>
+                     <div class="aside_container">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает, выйти, своего! Вершину страну великий, дал текстов себя лучше, большой, продолжил злых точках которое до? Предложения залетают великий вскоре одна решила свое своих за, снова продолжил, пустился скатился.</p>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. За семантика, на берегу предупредила снова! Заголовок своих путь, ему то...</p>                     	
+                     </div>
+                     <a href="#" class="more">Читать далее ></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="aside_carousel_count">
+                     <h4 class="lead">"Далеко-далеко за словесными горами в стране, гласных и согласных."</h4>
+                     <div class="aside_container">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает, выйти, своего! Вершину страну великий, дал текстов себя лучше, большой, продолжил злых точках которое до? Предложения залетают великий вскоре одна решила свое своих за, снова продолжил, пустился скатился.</p>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. За семантика, на берегу предупредила снова! Заголовок своих путь, ему то...</p>                     	
+                     </div>
+                     <a href="#" class="more">Читать далее ></a>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="aside_carousel_count">
+                     <h4 class="lead">"Далеко-далеко за словесными горами в стране, гласных и согласных."</h4>
+                     <div class="aside_container">
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Обеспечивает, выйти, своего! Вершину страну великий, дал текстов себя лучше, большой, продолжил злых точках которое до? Предложения залетают великий вскоре одна решила свое своих за, снова продолжил, пустился скатился.</p>
+                      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. За семантика, на берегу предупредила снова! Заголовок своих путь, ему то...</p>                     	
+                     </div>
+                     <a href="#" class="more">Читать далее ></a>
+										</div>
+									</div>
+
+								</div>
+
+								<!-- Indicators -->
+								<ol class="carousel-indicators">
+									<li data-target="#asideCarousel" data-slide-to="0" class="active"></li>
+									<li data-target="#asideCarousel" data-slide-to="1"></li>
+									<li data-target="#asideCarousel" data-slide-to="2"></li>
+									<li data-target="#asideCarousel" data-slide-to="3"></li>
+									<li data-target="#asideCarousel" data-slide-to="4"></li>
+								</ol>
+                
+                <div class="car_controls">
+									<a class="left carousel-control" href="#asideCarousel" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#asideCarousel" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+                </div>
+							</div><!-- /.carousel -->
+
+						</div>
+					</div>
+        </div>
+
+        <div class="box">
+        	<div class="well">
+						<h4>Лицензия №</h4>
+						<p>ГС-1-22-33-44-0-9876543210-654321-1<br>Мы вступили в СРО 15.09.2011 г.</p>
+					</div>
+        </div>
+
+     	 </aside>
+     </div>
+
+  	</div>
+  </div>
+
+ </section>
+
+ 
+ <footer class="main_footer">	
+  
+  <div class="container">
+  <div class="row">
+	   <div class="col-md-2 col-sm-6 col-xs-6">
+	   	
+	   	<div class="logo_wrap">
+	   		<img src="img/logo.svg" alt="logo">
+	   	</div>
+
+	   </div>
+		 <div class="col-md-4 col-sm-6 col-xs-6">
+		 	
+      <strong>Европейское качество<br> по стандартам РФ</strong>
+
+		 </div>
+		 <div class="col-md-4 col-sm-6 col-xs-6">
+		 	
+      <div class="lead footer_phone">
+      	8(495)999-99-99 <br>
+      	<a href="#" class="callback" data-toggle="modal" data-target="#myModal">Заказать звонок</a>
+      </div>
+
+		 </div>
+	   <div class="col-md-2 col-sm-6 col-xs-6">
+	   	
+      <a href="#" class="devel">
+      	<small>Разработка сайта: </small>
+      	<small>Copyright  ©</small>
+      </a>
+
+	   </div> 
+
+	  </div> 	
+  </div>
+
+ </footer>
+
+
+ 
+ <div class="modals">
+
+	<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+	  <div class="modal-dialog" role="document">
+
+	    <form action="#" class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Заказать звонок</h4>
+	      </div>
+	      <div class="modal-body">
+
+	        <div class="form-group">
+						<label class="control-label" for="inputDefault">Ваше имя:</label>
+						<input type="text" class="form-control" id="inputDefault" required="required">
+					</div>
+
+	        <div class="form-group">
+						<label class="control-label" for="inputDefault">Ваш телефон:</label>
+						<input type="text" class="form-control" id="inputDefault" required="required">
+					</div>
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="submit" class="btn btn-warning">Заказать</button>
+	      </div>
+	    </form><!-- /.modal-content -->
+
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+ </div>
+
+<script>
+	//User Styles + Media Queries
+	var ms=document.createElement("link");ms.rel="stylesheet";
+	ms.href="css/main.css";document.getElementsByTagName("head")[0].appendChild(ms);
+</script>
+
+<script>var scr = {"scripts":[
+  {"src" : "libs/modernizr/modernizr.js", "async" : false},
+	{"src" : "libs/jquery/jquery-1.11.2.min.js", "async" : false},
+	{"src" : "libs/bootstrap/js/bootstrap.min.js", "async" : false},
+	{"src" : "js/common.js", "async" : false}
+	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+</script>
+
+
+</body>
+</html>
