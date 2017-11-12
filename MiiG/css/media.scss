@@ -1,0 +1,58 @@
+@media only screen and (max-width : 1200px) {
+    
+
+}
+
+
+
+@media only screen and (max-width : 992px) {
+ 
+  .logo_footer {
+  	text-align: center;
+  	img {
+  		padding: 20px 0 30px 0px;
+  	}
+  	button {
+		 	margin-right: 0px;
+		 	margin-bottom: 30px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+.main_head {
+  text-align: center;
+ }
+.phone_wrap, .call_wrap, .catalog_wrap a {
+  text-align: center;
+  display: inline;
+ }
+ .catalog_wrap p {
+  padding-left: 100%;
+ }
+ .hidden_catalog {
+  width: 220px;
+ }
+ .contact_head {
+  margin-bottom: 10px;
+ }
+
+   .product .col-xs-12,
+   .s_making .col-xs-12 {
+  	text-align: center;
+  }
+  footer {
+  	text-align: center;
+  }
+
+}
+
+
+ 
+@media only screen and (max-width : 480px) {
+  
+
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Core Sans N 35 Light";
+  src: url("../fonts/Core Sans N 35 Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Core Sans N 45 Regular";
+  src: url("../fonts/Core Sans N 45 Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Core Sans N 55 Medium";
+  src: url("../fonts/Core Sans N 55 Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*# sourceMappingURL=fonts.css.map */
